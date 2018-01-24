@@ -4,7 +4,7 @@
   "description": "A tool to help find API Gateway methods that are defined without any integrations",
   "main": "src/index.js",
   "bin": {
-    "find-api-gateway-methods-missing-integrations": "src/index.js"
+    "find-api-gateway-methods-missing-integrations": "bin/find-api-gateway-methods-missing-integrations.js"
   },
   "engines": {
     "node" : ">=8"
