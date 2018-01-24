@@ -1,0 +1,18 @@
+{
+  "name": "find-methods-without-integrations",
+  "version": "1.0.0",
+  "description": "A tool to help find API Gateway methods that are defined without any integrations",
+  "main": "src/index.js",
+  "bin": {
+    "find-api-gateway-methods-missing-integrations": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Lavin <matt.lavin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.186.0",
+    "yargs": "^11.0.0"
+  }
+}
