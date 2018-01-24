@@ -1,10 +1,13 @@
 {
-  "name": "find-methods-without-integrations",
+  "name": "find-api-gateway-methods-missing-integrations",
   "version": "1.0.0",
   "description": "A tool to help find API Gateway methods that are defined without any integrations",
   "main": "src/index.js",
   "bin": {
     "find-api-gateway-methods-missing-integrations": "src/index.js"
+  },
+  "engines": {
+    "node" : ">=8"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
